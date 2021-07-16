@@ -13,9 +13,6 @@ The purpose of odometry is to calculate the current position of the robot x’, 
 
 Dead reckoning is the process of calculating current position by using previously determined reference position and advancing that position based upon known or estimated speeds over elapsed time and course. In the case of Potter, has two independent motors, the encoders, and a rear wheel that has free movement. As the wheel moves, the encoder has its value increased. Each pulse received by the encoder represents a fraction of the wheel's turn. The distance the wheel travels on the ground with each encoder pulse can be calculated by dividing the wheel circumference by the number of pulses the encoder provides in an entire wheel revolution 
 
-<img align=center
-	src='https://ik.imagekit.io/eogtlka8vuq/Medias_Github/3_-QJSgaHcqX.PNG' style="zoom:50%;" >
-
 
 
 ### Components
